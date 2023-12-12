@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+    margin-top: 5vh;
+    border: double;
+    border-radius: 15px;
+    backdrop-filter: blur(0px);
+    box-shadow: 0 0 20px white;
+    height: 43rem;
+    border: groove;
+    border-block-color: red;
+}
+.searchcity{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 0 0 5px;
+    background-color: rgb(133, 133, 133);
+    font-style: italic;
+    margin-left: 50px;
+}
+.searchcity::placeholder{
+    color: white;
+    font-family: serif;
+    font-style: italic;
+}
+.searchicon{
+    font-size: 20px;
+    margin-left: 14px;
+    color: white;
+    border: double;
+    border-radius: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchicon:hover{
+    background-color: #525252;
+}
+
+.container{
+    display: flex;
+}
+.cloud{
+    font-size: 120px;
+}
+.wheather-temp{
+    font-size: 40px;
+    color: white;
+}
+.wheather-location{
+    font-size: 40px;
+    color: white;
+}
+
+.container-two{
+    display: flex;
+}
+.cloud-temp{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.humidity{
+    display: grid;
+    margin-left: 18vh;
+    font-size: 20px;
+    color: white;
+}
+.windspeed,.wind-container{
+    font-size: 20px;
+    color: white;
+}
+.wind-container{
+
+}
